@@ -5,6 +5,8 @@ my_data
 ## I use it for diplomas or notes
 personal_attachments
 
+# Repo
+*.png
 
 # Standard LaTeX stuff
 *.acn

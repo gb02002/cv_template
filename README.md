@@ -1,7 +1,8 @@
-# LaTeX Two-Column CV Template
-
 ![badge](https://img.shields.io/badge/-LaTeX-008080?style=flat&logo=latex&logoColor=white)
 ![mit](https://img.shields.io/badge/license-MIT-green)
+
+# LaTeX Two-Column CV Template
+
 A clean and modern two-column CV template for LaTeX. Simplicity is intended.
 If you don't care or organisation has strict rules on formatting, consider using "Jake's resume".
 
@@ -12,7 +13,10 @@ If you don't care or organisation has strict rules on formatting, consider using
 
 Looks:
 
-![example.pdf](github.attachments)
+![Alt Text](https://private-user-images.githubusercontent.com/126925878/556966301-41823805-fcaa-47f2-bc58-452971e95d33.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI0NjQ5MzEsIm5iZiI6MTc3MjQ2NDYzMSwicGF0aCI6Ii8xMjY5MjU4NzgvNTU2OTY2MzAxLTQxODIzODA1LWZjYWEtNDdmMi1iYzU4LTQ1Mjk3MWU5NWQzMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwMlQxNTE3MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMDAyMGQyMWFhZDMxNmNlODRlYTc3NTRlZTk3ZWQwNjRlYzQ1YmExZTQ4NzIwNzdmZjM5MzdhMmM5YzhmYTMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.hDhxjrNFbwTdDC4OH7RLV5xoa1ZZzZKpOVPD4-NR-RU)
+
+File:
+![example.pdf](https://github.com/user-attachments/files/25687808/main.pdf)
 
 ## Usage
 
