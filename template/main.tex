@@ -1,0 +1,33 @@
+\DocumentMetadata{
+  % testphase = {phase-III, math, table},
+  % pdfstandard = ua-1,
+  lang = en-US
+}
+\documentclass[a4paper,10pt]{article}
+
+\input{sections/preamble.tex}
+
+\begin{document}
+
+% ===================== HEADER ======================
+\input{sections/header.tex}
+
+% ===================== TWO FIXED COLUMNS ======================
+\noindent
+\begin{minipage}[t]{0.29\textwidth}
+\begin{leftcolbox}%
+\input{sections/contacts.tex}
+\input{sections/skills.tex}
+\input{sections/education.tex}
+\input{sections/certificates}
+\end{leftcolbox}
+\end{minipage}
+% \hfill
+\begin{minipage}[t]{0.70\textwidth}
+\begin{rightcolbox}%
+\input{sections/experience.tex}
+\input{sections/projects.tex}
+\end{rightcolbox}
+\end{minipage}
+\end{document}
+

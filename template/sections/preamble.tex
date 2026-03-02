@@ -1,0 +1,79 @@
+\usepackage[margin=0.8cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{textcomp}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue,
+    pdfborder={0 0 0},      % Removes the red/blue boxes around links for a clean look
+    % --- Metadata (Crucial for Searchability) ---
+    pdftitle={Ellen L. Ripley - Warrant Officer},
+    pdfauthor={Ellen L. Ripley},
+    pdfsubject={Resume of a Warrant Officer with experience working in loading systems and Xenomorphs},
+    pdfkeywords={Warrant Officer, Xenomorphs, Crisis Management, Pilot},
+    pdfproducer={LaTeX},
+    pdfcreator={pdfLaTeX},
+    % --- PDF Display ---
+    pdfpagemode=UseNone,    % Prevents sidebars from opening automatically
+    pdfstartview=FitH,      % Fits the page width to the reader's screen
+}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\usepackage{mdframed}
+\pagestyle{empty}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+% Colors
+\definecolor{primary}{HTML}{003366}
+\definecolor{headerbg}{HTML}{E6EEF8}
+\definecolor{leftbg}{HTML}{F7F9FC}
+\definecolor{rightbg}{HTML}{FFFFFF}
+
+% Section line
+\newcommand{\cvsection}[1]{%
+  {\Large\bfseries\color{primary} #1\strut}
+  \par\vspace{0.3em}
+  \hrule height 0.5pt depth 0.5pt
+  \vspace{0.8em}
+}
+
+\newmdenv[
+  backgroundcolor=leftbg,
+  linecolor=leftbg,
+  innerleftmargin=10pt,
+  innerrightmargin=10pt,
+  innertopmargin=12pt,
+  innerbottommargin=12pt
+]{leftcolbox}
+
+\newmdenv[
+  backgroundcolor=rightbg,
+  linecolor=rightbg,
+  innerleftmargin=10pt,
+  innerrightmargin=10pt,
+  innertopmargin=12pt,
+  innerbottommargin=12pt
+]{rightcolbox}
+
+\newtcolorbox{compactheader}{
+  enhanced,
+  boxrule=0pt,
+  frame hidden,
+  arc=0pt,
+  colback=headerbg,
+  left=8pt,
+  right=8pt,
+  top=4pt,
+  bottom=2pt,
+  before skip=0pt,
+  after skip=6pt,
+}
+\definecolor{accent}{RGB}{40, 100, 200}
+
+\input{glyphtounicode}
+\pdfgentounicode=1

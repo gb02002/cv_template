@@ -1,0 +1,14 @@
+\ProvidesPackage{layout}[2025/11/20 CV layout setup]
+
+% For two-column layout:
+\newenvironment{cvcolumns}
+{
+\noindent
+\begin{minipage}[t]{0.33\textwidth}
+}
+{
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.63\textwidth}
+}
+
